@@ -32,7 +32,7 @@
 
       ⍝ part 2
 
-      ∇w pt drags i;d
+      ∇pt drags i;d
        d←pt-F[i;]
        :If ∨/1<|d
            F[i;]+←×d
